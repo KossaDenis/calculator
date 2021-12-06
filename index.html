@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="block">
+        <div class="container">
+            <div class="calculator">
+               <textarea type="text" id="display" class="display"></textarea>
+               <div class="buttons">
+                <div class="nums">
+                    <button onclick="input('7')" id="button_num-7" class="button">7</button>
+                    <button onclick="input('8')" id="button_num-8" class="button">8</button>
+                    <button onclick="input('9')" id="button_num-9" class="button">9</button>
+                    <button onclick="input('4')" id="button_num-4" class="button">4</button>
+                    <button onclick="input('5')" id="button_num-5" class="button">5</button>
+                    <button onclick="input('6')" id="button_num-6" class="button">6</button>
+                    <button onclick="input('1')" id="button_num-1" class="button">1</button>
+                    <button onclick="input('2')" id="button_num-2" class="button">2</button>
+                    <button onclick="input('3')" id="button_num-3" class="button">3</button>
+                    <button onclick="input('0')" id="button_num-0" class="button">0</button>
+                   
+                </div>
+                <div class="signs">
+                    <button id="clear" class="button">c</button>
+                    <button onclick="input('/')" id="division" class="button">/</button>
+                    <button onclick="input('*')" id="multiply" class="button">*</button>
+                    <button onclick="input('-')" id="minus" class="button">-</button>
+                    <button onclick="input('+')" id="plus" class="button">+</button>
+                    <button onclick="equals()" id="equals" class="button">=</button>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
